@@ -118,14 +118,14 @@ function start() {
         getSec--;
         if (getSec <= 0) {
             if (getMin > 0) {
-                getSec = 60;
+                getSec = 59;
                 getMin--;
                 
             }
             
             if (getMin <= 0) {
                 if (getHour > 0) {
-                    getMin = 60;
+                    getMin = 59;
                     getHour--
                     // getMin = 60;
                     
